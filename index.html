@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Edgar</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/profile.jpg" alt="">
+            </div>
+            <h1>EDGAR PEREZ</h1>
+            <h2>Ingeniero de Ciberseguridad</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/edgar-alberto-perez-arredondo/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Chek0rrdn"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Edgar Perez.</span> 
+            Soy Licenciado en Seguridad en Tecnologías de Información, graduado con distinción de la Facultad de Ciencias Físico Matemáticas de la Universidad Autónoma de Nuevo León. Mi formación incluye una Ingeniería en Sistemas Computacionales del Grupo Tecnológico Universitario, consolidando una sólida base en Programación, Redes Computacionales, Sistemas Operativos así como temas más específicos como Pruebas de Penetración en Redes (Pentesting).
+            Apasionado por el aprendizaje continuo, me esfuerzo por mantenerme a la vanguardia en el dinámico mundo de la tecnología. Mi enfoque va más allá de los títulos; es una búsqueda constante de desafíos que impulsen mi crecimiento profesional. La seguridad informática es mi vocación, y mi objetivo es aplicar mis habilidades para fortalecer la protección de datos y sistemas.    
+            Con una mentalidad proactiva, aspiro a contribuir al panorama tecnológico, aprovechando mi experiencia para crear soluciones innovadoras y avanzar hacia un ciberespacio más seguro.
+            </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nombre</strong>
+                            Edgar Alberto Pérez Arredondo
+                        </li>
+                        <!--
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        -->
+                        <li>
+                            <strong>Dirección</strong>
+                            Monterrey, Nuevo León
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="static/CV.pdf" download="">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Lic. en Seguridad en Tecnologías de Información</h4>
+                        <span class="casa">Universidad Autónoma de Nuevo León</span>
+                        <span class="fecha">2017 - 2023</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ing. en Sistemas Computacionales</h4>
+                        <span class="casa">Grupo Tecnológico Universitario, Campus Monterrey </span>
+                        <span class="fecha">2022-Actual</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Congresos, Cursos y Certificaciones</h3>
+                    <div class="item der">
+                        <h4>10MO. CONGRESO INTERNACIONAL, 24TO. COLOQUIO DE PROYECTOS INSTITUCIONALES 
+                            Y DE VINCULACIÓN Y 4TO. CONGRESO DE ADMINISTRACIÓN Y SISTEMAS (PIV2023)</h4>
+                        <span class="casa">Facultad de Ingeniería Mecánica y Eléctrica - UANL</span>
+                        <span class="fecha">2023</span>
+                        <p>
+                            Presenté con éxito el artículo "Evaluación de la Seguridad de Tarjetas RFID con Herramienta de Identificación por Radiofrecuencia" en el Congreso PIV2023 de la Facultad de Ingeniería Mecánica y Eléctrica de la UANL. Destacando la importancia de la seguridad en tecnología RFID, mi exposición subraya propuestas clave para fortalecer la resistencia ante amenazas. Esta participación evidencia mi dedicación a la excelencia académica y a contribuciones significativas en proyectos de seguridad informática.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Fortinet Certified Associate</h4>
+                        <span class="casa">Fortinet</span>
+                        <span class="fecha">2023</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Fortinet Certified Fundamentals in Cybersecurity</h4>
+                        <span class="casa">Fortinet</span>
+                        <span class="fecha">2023</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Red Hat System Administration I (RH124)</h4>
+                        <span class="casa">Red Hat Academy / FCFM-UANL</span>
+                        <span class="fecha">2021</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Automate Cybersecurity Tasks with Python</h4>
+                        <span class="casa">Google</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Capacitación Oficial AWS</h4>
+                        <span class="casa">CompuEducación</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://github.com/Chek0rrdn/criptoJoker">
+                        <img src="img/p1.jpg" alt="">
+                        <div class="overlay">
+                            <h3>CriptoJoker</h3>
+                            <p>Criptografía</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/Chek0rrdn/Cipher-Chat">
+                        <img src="img/p2.png" alt="">
+                        <div class="overlay">
+                            <h3>Cipher-Chat</h3>
+                            <p>Criptografía</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/Chek0rrdn/port_scanner">
+                        <img src="img/p3.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Escáner de Puertos</h3>
+                            <p>Telecomunicaciones</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/Chek0rrdn/scripts_python_redes">
+                        <img src="img/p4.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Scripts en Python para Redes</h3>
+                            <p>Telecomunicaciones</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/Chek0rrdn/DataEngineer_ETL">
+                        <img src="img/p5.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Ciclo ETL en Ingeniería de Datos</h3>
+                            <p>Ciencias de Datos</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/edgar-alberto-perez-arredondo/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Chek0rrdn"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
