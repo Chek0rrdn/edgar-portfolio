@@ -27,11 +27,6 @@ La seguridad informática es mi verdadera vocación. Mi objetivo es aplicar mis 
 ## Enfoque Proactivo
 Me caracterizo por tener una mentalidad proactiva. Aspiro a contribuir al panorama tecnológico mediante la creación de soluciones innovadoras. Mi experiencia me impulsa a avanzar hacia un ciberespacio más seguro, enfrentando los desafíos con determinación y creatividad.
 
-## Contacto
-LinkedIn: Edgar Perez (Enlace a tu perfil de LinkedIn)
-Correo Electrónico: edgar.perez@email.com
-¡Gracias por visitar mi perfil! Estoy emocionado/a de conectar y explorar oportunidades para colaborar en proyectos emocionantes en el ámbito de la seguridad informática. ¡Hagamos del ciberespacio un lugar más seguro juntos!
-
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://chek0rrdn.github.io/edgar-portfolio/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edgar-alberto-perez-arredondo/)
